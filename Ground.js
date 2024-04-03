@@ -11,7 +11,7 @@ export default class Ground {
     this.y = this.canvas.height - this.height;
 
     this.groundImage = new Image();
-    this.groundImage.src = "images/ground.png";
+    this.groundImage.src = "https://png.pngtree.com/png-clipart/20230120/ourmid/pngtree-digital-ocean-wave-painting-png-image_6564274.png";
   }
 
   update(gameSpeed, frameTimeDelta) {
